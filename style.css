@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto, "sans-serif";
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 
@@ -12,18 +12,26 @@
     padding: 15px 350px 105px;
     display: flex;
     flex-direction: column;
-    gap: 45px;
+    gap: 90px;
+    background-color: #1F2937;
 }
 
 .header-links{
     display: flex;
     list-style: none;
     justify-content: flex-end;
-    gap: 8px;
+    gap: 16px;
+}
+
+.header-links, .text{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .logo {
-    margin-right: auto
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .inner-container1 {
@@ -32,8 +40,12 @@
 }
 
 .inner-item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
     flex: 1 1 20px;
-    height: 120px;
+    align-self: stretch;
 
 }
 
@@ -41,4 +53,104 @@ img {
     width: 100%;
     height: 100%;
    
-  }
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.inner-item1 > button {
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border: none;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+
+/*  Main container 2 */
+
+.main-container2 {
+    padding: 30px 0px 105px;
+}
+
+.main-container2 p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.inner-container2 > div {
+    width: 150px;
+    
+}
+
+.inner-container2 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.inner-box {
+    width: 150px;
+    height: 150px;
+    border: #3882F6 2px solid;
+    border-radius: 15px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+/*  Main container 3 */
+
+.main-container3 {
+    background-color: #E5E7EB;
+    padding: 100px 600px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:200;
+    color: #1F2937;
+}
+
+.author {
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+/* Main container 4 */
+
+
+.main-container4{
+    color: #F9FAF8;
+    padding: 150px 250px;
+}
+
+.inner-container4 {
+    display: flex;
+    padding: 75px 125px;
+    background-color: #3882F6;
+    border-radius: 20px;
+}
+
+.inner-container4 > div {
+    flex-grow: 3;
+    font-size: 25px;
+ 
+}
+
+.inner-container4 > button {
+    flex-grow: 1;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius:10px;
+    padding: 10px 15px;
+    border: #F9FAF8 1px solid;
+}
