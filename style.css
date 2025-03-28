@@ -154,3 +154,14 @@ img {
     padding: 10px 15px;
     border: #F9FAF8 1px solid;
 }
+
+/* Main Container 5 */
+
+.main-container5{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
